@@ -1,0 +1,342 @@
+
+
+
+/* icon image */
+.image{
+    width:40px;
+  
+}
+.ANGORA span{
+    display: inline-block;
+ font-family: sans-serif;
+
+}
+.image img{
+    width:100%;
+    display: inline-block;
+}
+/* navbar */
+
+.navbar-header{
+    position: fixed;
+    z-index: 999999999999;
+    font-family: sans-serif;
+
+}
+
+/* nav */
+.nav{
+    margin-top: 6px;
+}
+
+.myicons{
+    margin-top: 20px;
+    transition: 1s;
+
+}
+.myicons i,.nav-item  a{
+    color:#fff;
+transition: 1s;
+}
+.myicons i:hover{
+    
+   color:red;
+    }
+    .nav-item a:hover{
+    
+        color:red;
+         }
+
+/* Carousel */
+#carouselExampleIndicators{
+    position:relative;
+    height:100vh;
+    width:100%;
+}
+
+#carouselExampleIndicators  .carousel-inner{
+    position:relative;
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+
+}
+#carouselExampleIndicators  .carousel-inner    .carousel-item{
+    background-image: url(./images/slideshow-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+
+#carouselExampleIndicators  .carousel-inner    .carousel-item:nth-child(2)
+{
+    background-image: url(./images/slideshow-2.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+/* my-content1 */
+.my-content1{
+    align-items: center;
+    color:#fff;
+    
+}
+.my-animation{
+    position: absolute;
+    top:85%;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 9999999999;
+    display: block;
+    width:5px;
+    height:5px;
+    padding: 18px 8px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.my-animation span{
+display: inline-block;
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+background-color: #fff;
+border-radius: 10px;
+width:8px;
+    height:8px;
+animation: movement 2s infinite;
+}
+@keyframes movement{
+    0%{
+        opacity: 0.5;
+        top:0;
+    }
+    100%{
+        opacity: 0.1;
+        top:80%;
+    }
+}
+/* section-2 */
+
+
+.About-us{
+    position: relative;
+}
+.About-us h1{
+    font-size: 5rem;
+    color: thistle;
+}
+.About-us h2{
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+position: absolute;
+left:50%;
+transform: translate(-50%);
+top:15%;
+}
+.About-us h2::after{
+content: "";
+position: absolute;
+background-color:black ;
+width:40px;
+height:2px;
+
+top:110%;
+left: 50%;
+transform: translate(-50%);
+top: 156%;
+transition: 1s;
+
+}
+.About-us:hover h2::after{
+    width:100px;
+
+}
+.paragraph p{
+    font-size: 18px;
+    color: #999;
+    
+}
+
+.photoshop img{
+    width:100%;
+}
+/*  */
+
+.myicons2 i{
+    color:#fff;
+transition: 1s;
+}
+.myicons2 i:hover{
+    
+   color:red;
+    }
+
+    #my-parent1,#my-parent2,#my-parent3,#my-parent4 {
+        position: relative;
+    }
+
+    .myicons2{
+        position: absolute;
+        top:0;
+        bottom:0;
+        right:0 ;
+        left:0;
+        padding-top: 25px;
+        /* margin-top: 20px; */
+        transition: 1s;
+    background-color:rgb(241, 52, 52);
+    opacity: 0;
+    }
+    .myicons2 i{
+        position: relative;
+        left: 25%;
+        top:50%;
+        
+
+    }
+    .myicons2:hover{
+
+        opacity: 1;
+
+    }
+    .name h5{
+        transition:1s;
+        
+    }
+    #my-col-1:hover .name h5{
+        color:rgb(241, 52, 52);
+    }
+    #my-col-2:hover .name h5{
+        color:rgb(241, 52, 52);
+    }
+    #my-col-3:hover .name h5{
+        color:rgb(241, 52, 52);
+    }
+    #my-col-4:hover .name h5{
+        color:rgb(241, 52, 52);
+    }
+    .name p{
+        color:#999;
+    }
+    .idea h3{
+        font-size: 32px;
+    }
+  .idea2 a{
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .heading i{
+    color:rgb(235, 83, 83);
+  }
+
+  .heading span {
+   transition:1s;
+  }
+
+  .heading:hover span {
+    color:rgb(235, 83, 83);
+   }
+.image-slid{
+    width:600px;
+    margin: auto;
+    
+}
+.image-slid img{
+    width:100px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image-slid img:nth-child(1),.image-slid img:nth-child(2),.image-slid img:nth-child(4),.image-slid img:nth-child(5){
+opacity: 0.7;
+
+}
+.parameter2{
+    /* width: 700px; */
+    /* width:100px; */
+   
+}
+.parameter2 p{
+    font-size: 1.5rem;
+    /* width:600px; */
+    
+
+}
+.titles h3{
+    transition: 0.5s;
+}
+.titles i{
+    color:rgb(238, 73, 73);
+
+}
+.titles h3:hover{
+   color:rgb(238, 73, 73);
+}
+
+/* ul li a */
+li{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    list-style: none;
+}
+.finally li a{
+    transition:0.5s;
+    color:#fff !important;
+}
+.finally li a:hover{
+color:rgb(233, 39, 39) !important;
+
+}
+.linksrow1 a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid #fff;
+padding: 5px 10px;
+color:#fff;
+transition: 0.5s;
+}
+.linksrow1 a:hover{
+    
+    border: 1px solid rgb(238, 40, 40);
+padding: 5px 10px;
+color:rgb(245, 38, 38);
+}
+.myicons22 i{
+   
+    transition:0.5s
+
+}
+
+.myicons22 i:hover{
+   
+   color:rgb(244, 32, 32);
+
+}
+.finally{
+    position:relative
+}
+.arrow-icons a{
+    position: absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%);
+    background-color: rgb(249, 59, 59);
+    border-radius: 50%;
+    padding: 5px 15px;
+    color:white;
+}
+.Angora{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Angora:hover{
+    color:rgb(233, 54, 54);
+}

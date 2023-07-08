@@ -1,0 +1,90 @@
+
+
+@media screen and (min-width:992px)
+{
+   .my-content1 h1{
+font-size:5rem;
+font-family: sans-serif;
+   }
+
+}
+
+@media(max-width:575px)
+{
+   .idea {
+      text-align: center;
+     }
+     .idea2{
+      text-align: center;
+     }
+     .image-slid{
+      width:150px;
+      margin: auto;
+      
+  }
+  .image-slid img{
+      width:100px;
+      display: inline-block;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  .parameter{
+   display: none;
+  }
+}
+@media screen and (min-width:576px) and (max-width:768px)
+{
+   .myicons2 i{
+      position: relative;
+      left: 30%;
+      top:50%;
+      
+
+  }
+  .idea h3{
+   text-align: center;
+  }
+  .idea2{
+   text-align: center;
+  }
+  .image-slid{
+   width:500px;
+   margin: auto;
+   
+}
+.image-slid img{
+   width:100px;
+   display: inline-block;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.parameter{
+   display: none;
+  }
+  .image-slid img:nth-child(5){
+   text-align: center;
+   margin: auto;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px)
+{
+   .myicons2 i{
+      position: relative;
+      left: 1%;
+      top:50%;
+      
+
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px)
+{
+   .myicons2 i{
+      position: relative;
+      left: 15%;
+      top:50%;
+
+  }
+}
